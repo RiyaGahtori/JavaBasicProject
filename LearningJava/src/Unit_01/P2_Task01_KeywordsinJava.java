@@ -44,12 +44,12 @@ package Unit_01;
 //class name can never be any keyword in jave 
 class int{
 	void display() {
-		System.out.println("Another class!!");
+		System.out.println("Another class!");
 	}
 }
 class ABC{
 	void display() {
-		System.out.println("Another class!!");
+		System.out.println("Another class!");
 	}
 }
 */
