@@ -42,7 +42,7 @@ void sortAnArray(int[] arr) {
 		
 	}
 	
-	System.out.println("Sorted Array:");
+	System.out.println("Sorted Array1:");
 	for(int i=0;i<arr.length;i++)
 	{
 		System.out.print(arr[i]+" ");
