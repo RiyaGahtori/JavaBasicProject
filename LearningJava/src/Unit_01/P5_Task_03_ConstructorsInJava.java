@@ -50,7 +50,7 @@ class ABC4 {
 		
 		int b = 10;
 		
-		System.out.println(a);
+		System.out.println(a1);
 		System.out.println(b);
 	}
 	
