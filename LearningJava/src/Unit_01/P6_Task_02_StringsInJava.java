@@ -14,7 +14,7 @@ class StringInJava
     void StringDefinition()
     {
         String s = "Hello There";
-        String s1 = new String("My name is Anshika Mehta");
+        String s1 = new String("My name is Riya Gahtori");
 
         System.out.println(s);
 
@@ -27,8 +27,8 @@ class StringInJava
             System.out.println(s.charAt(i));
         }
 
-        String first = "Anshika";
-        String second = "Mehta";
+        String first = "Riya";
+        String second = "Gahtori";
 
         // Adding two strings
         String third = first + second;
@@ -46,8 +46,8 @@ class StringInJava
          * If the string is doesn't exist, then the new string is created.
          */
 
-        String fourth = "Anshika";
-        String fifth = new String("Mehta");
+        String fourth = "Riya";
+        String fifth = new String("Gahtori");
     }
 
     void charAndString()
