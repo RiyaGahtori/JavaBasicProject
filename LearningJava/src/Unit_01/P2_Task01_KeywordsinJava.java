@@ -19,37 +19,42 @@ package Unit_01;
  *  - etc.
  */
 
-/*public class P2_Task01_KeywordsinJava {
-
+public class P2_Task01_KeywordsinJava {
 	public static void main(String[] args) {
 		
 		//variable name
-		int double = 12; //Syntax error on token "double", invalid VariableDeclaratorId, we can't use Keyword as variable name.
-		
-		//function name 
-		int new()////Cannot Use Keyword as function name
+		int age = 12;
+		{
+			System.out.print("The age is : ");
+			System.out.println(age);
+		}
+		//int double = 12; --> Syntax error on token "double", invalid VariableDeclaratorId, we can't use Keyword as variable name.
+	}
+		//function name
+		int abc ()
+		//int new() --> Cannot Use Keyword as function name
 		{
 			
 			System.out.println();//type-> sysout [ctrl + space]
 			return 0;
 		}
-		//class name [Given below]
 		
 		//object
-		//We are not supposed to use Keyword as Object name in java. For e.g. -> Student int = 2;
-		ABC int = new ABC();
-			
+		ABC c1 = new ABC();  //class name [Given below]
+		//ABC int = new ABC(); --> We are not supposed to use Keyword as Object name in java. For e.g. --> Student int = 2;
+		
+		//class
+		class ABC{
+			void display() { 
+				System.out.println("Another class!");
+			}
 		}
-	}
-//class name can never be any keyword in java
-class int{
-	void display() {
-		System.out.println("Another class!");
-	}
-}
-class ABC{
-	void display() { 
-		System.out.println("Another class!");
-	}
-}
-*/
+		}
+		/*class int{
+		void display() {
+			System.out.println("Another class!");
+		}
+	} --> class name can never be any keyword in java*/
+
+
+
